@@ -7,6 +7,7 @@ Dark green: #28b485
 
 */
 
+/* pseudo-classes in global reset */
 *,
 *::after,
 *::before {
