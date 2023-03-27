@@ -52,6 +52,6 @@ body {
     transition: all .2s;
 
     &:hover {
-        transform: skewY(20deg);
+        transform: skewY(0) skewX(15deg);
     }
 }

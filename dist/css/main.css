@@ -101,7 +101,7 @@ body {
   transition: all 0.2s;
 }
 .heading-secondary:hover {
-  transform: skewY(20deg);
+  transform: skewY(0) skewX(15deg);
 }
 
 .btn:link, .btn:visited {
