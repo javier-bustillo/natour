@@ -64,8 +64,7 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   margin-bottom: 6rem;
 }
 .heading-primary--main {
@@ -207,7 +206,6 @@ body {
   height: 50rem;
 }
 .card__side {
-  background-color: orangered;
   color: white;
   font-size: 2rem;
   height: 50rem;
@@ -216,15 +214,18 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
 .card__side--front {
-  background-color: orangered;
+  color: #fff;
 }
 .card__side--back {
-  background-color: green;
   transform: rotateY(180deg);
+}
+.card__side--back-1 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 .card:hover .card__side--front {
   transform: rotateY(180deg);
