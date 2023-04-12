@@ -226,6 +226,9 @@ body {
 .card__side--back-1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
+.card__side--back-2 {
+  background-image: linear-gradient(to right bottom, #55c57a, #28b485);
+}
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
 }
