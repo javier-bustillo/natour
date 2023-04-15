@@ -410,6 +410,7 @@ body {
 }
 .story__img {
   height: 100%;
+  transform: translateX(-4rem);
 }
 .story__text {
   transform: skewX(12deg);
