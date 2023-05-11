@@ -11,9 +11,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     // display on high-resolution and lower 600px screen
-    // or display on low-resolution and higher 2000px screen
-    @media (min-resolution: 192dpi) and (min-width:600px),
-           (min-width: 2000px) {
+    // or display higher 2000px screen
+    @media (min-resolution: 192dpi) and (min-width:37.5em),
+           (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
                 rgba($color-secondary-light, 0.8),
                 rgba($color-secondary-dark, 0.8)),
