@@ -11,22 +11,14 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     // display on high-resolution and lower 600px screen
-    @media (min-resolution: 192dpi) and (min-width:600px) {
+    // or display on low-resolution and higher 2000px screen
+    @media (min-resolution: 192dpi) and (min-width:600px),
+           (min-width: 2000px) {
         background-image: linear-gradient(to right bottom,
                 rgba($color-secondary-light, 0.8),
                 rgba($color-secondary-dark, 0.8)),
             url(/starter/img/hero.jpg);
     }
-
-    // display on low-resolution and higher 2000px screen
-    @media (max-resolution: 192dpi) and (min-width: 2000px) {
-        background-image: linear-gradient(to right bottom,
-                rgba($color-tertiary-light, 0.8),
-                rgba($color-tertiary-dark, 0.8)),
-            url(/starter/img/hero.jpg);
-    }
-
-
 
     @include respond(phone) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
