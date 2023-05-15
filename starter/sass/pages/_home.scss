@@ -93,7 +93,8 @@
             url(/starter/img/nat-10-small.jpg);
     }
 
-    @media (min-resolution: 192dpi) {
+    @media (min-resolution: 192dpi),
+           (-webkit-min-device-pixel-ratio: 2){
         @include respond(tab-land) {
             background-image: linear-gradient(105deg,
                     rgba($color-white, .9) 0%,
