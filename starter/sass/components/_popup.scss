@@ -64,6 +64,19 @@
     &__img {
         display: block;
         width: 100%;
+
+        @include respond(tab-land) {
+            display: inline-block;
+            height: 30vh;
+
+           
+        }
+        @include respond(tab-port) {
+            display: inline-block;
+            height: 30vh;
+
+           
+        }
     }
 
     &__text {

@@ -747,6 +747,18 @@ body {
   display: block;
   width: 100%;
 }
+@media only screen and (max-width: 75em) {
+  .popup__img {
+    display: inline-block;
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .popup__img {
+    display: inline-block;
+    height: 30vh;
+  }
+}
 .popup__text {
   font-size: 1.4rem;
   margin-bottom: 4rem;
